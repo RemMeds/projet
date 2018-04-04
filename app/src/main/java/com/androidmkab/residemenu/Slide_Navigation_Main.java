@@ -36,7 +36,8 @@ public class Slide_Navigation_Main extends FragmentActivity implements View.OnCl
 
         // attach to current activity;
         resideMenu = new ResideMenu(this);
-       resideMenu.setUse3D(true);resideMenu.setBackground(R.drawable.blue);
+//       resideMenu.setUse3D(true);resideMenu.setBackground(R.drawable.blue);
+       resideMenu.setUse3D(true);resideMenu.setBackground(R.drawable.menu);
         resideMenu.attachToActivity(this);
         resideMenu.setMenuListener(menuListener);
         //valid scale factor is between 0.0f and 1.0f. leftmenu'width is 150dip. 

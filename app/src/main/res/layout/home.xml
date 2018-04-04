@@ -19,7 +19,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
-                android:background="@drawable/smoke"
+                android:background="@drawable/remmeds"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -28,16 +28,6 @@
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="20dp"
                     android:layout_marginLeft="30dp" />
-
-                <customfonts.MyTextView1
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginBottom="12dp"
-                    android:layout_marginLeft="5dp"
-                    android:text="Android Reside Menu"
-                    android:textColor="#fff"
-                    android:textSize="16dp" />
 
             </LinearLayout>
 
@@ -66,16 +56,10 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:padding="5dp"
-                    android:text="This is Reside Menu Example"
+                    android:text="Voici le menu de l'application RemMeds"
                     android:textSize="20dp" />
 
 
-                <customfonts.MyTextView1
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:text="Today ,10:31AM"
-                    android:textStyle="bold" />
             </LinearLayout>
 
 
@@ -89,22 +73,22 @@
                 <customfonts.MyTextView1
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Enjoj the Rside Menu layout bhought to you by Androidmkab.com"
+                    android:text="Vous pourrez accéder à votre pilulier, au répertoire ainsi qu'à l'historique de vos prises médicamenteuses"
                     android:layout_marginLeft="25dp"
                     android:textSize="16dp"
                     android:lineSpacingExtra="3dp"
                     android:layout_marginTop="20dp"/>
 
 
-                <customfonts.MyTextView1
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="For More templates like this Subscribe to my channel at YouTube.com/KarthikM128"
-                    android:layout_marginLeft="25dp"
-                    android:textSize="16dp"
-                    android:lineSpacingExtra="3dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="20dp"/>
+                <!--<customfonts.MyTextView1-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="For More templates like this Subscribe to my channel at YouTube.com/KarthikM128"-->
+                    <!--android:layout_marginLeft="25dp"-->
+                    <!--android:textSize="16dp"-->
+                    <!--android:lineSpacingExtra="3dp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:layout_marginBottom="20dp"/>-->
 
 
 
@@ -128,69 +112,69 @@
                 >
 
 
-                <LinearLayout
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/round"
-                    android:layout_marginLeft="20dp"
-                    android:gravity="center">
+                <!--<LinearLayout-->
+                    <!--android:layout_width="30dp"-->
+                    <!--android:layout_height="30dp"-->
+                    <!--android:background="@drawable/round"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:gravity="center">-->
 
-                    <customfonts.MyTextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="A"
-                        android:textSize="16dp"
-                        android:textColor="#fff"
-                        android:gravity="center"
-
-
-                        />
-                </LinearLayout>
-
-                <customfonts.MyTextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:gravity="center"
-                    android:text="CHANNEL KarthikM "
-                    android:textSize="12dp"
-                    android:textStyle="bold" />
-
-                <customfonts.MyTextView1
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="25K"
-                    android:gravity="center"
-                    android:textStyle="bold"
-                    android:layout_marginLeft="30dp"
-                    />
+                    <!--<customfonts.MyTextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="A"-->
+                        <!--android:textSize="16dp"-->
+                        <!--android:textColor="#fff"-->
+                        <!--android:gravity="center"-->
 
 
-                <customfonts.MyTextView1
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="VIEW"
-                    android:gravity="center"
-                    android:textSize="12dp"
-                    android:layout_marginLeft="5dp"
-                    />
+                        <!--/>-->
+                <!--</LinearLayout>-->
 
-                <customfonts.MyTextView1
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="200"
-                    android:gravity="center"
-                    android:textStyle="bold"
-                    android:layout_marginLeft="10dp"
-                    />
-                <customfonts.MyTextView1
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="COMMNETS"
-                    android:gravity="center"
-                    android:textSize="12dp"
-                    android:layout_marginLeft="5dp"
-                    />
+                <!--<customfonts.MyTextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="CHANNEL KarthikM "-->
+                    <!--android:textSize="12dp"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<customfonts.MyTextView1-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="25K"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_marginLeft="30dp"-->
+                    <!--/>-->
+
+
+                <!--<customfonts.MyTextView1-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="VIEW"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textSize="12dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--/>-->
+
+                <!--<customfonts.MyTextView1-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="200"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--/>-->
+                <!--<customfonts.MyTextView1-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="COMMNETS"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textSize="12dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--/>-->
             </LinearLayout>
 
 
