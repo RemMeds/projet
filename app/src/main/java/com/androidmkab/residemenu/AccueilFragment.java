@@ -7,11 +7,17 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class EventFragment extends Fragment {
+public class AccueilFragment extends Fragment {
+
+    private View parentView;
+    private ResideMenu resideMenu;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.event, container, false);
+        parentView = inflater.inflate(R.layout.accueil, container, false);
+
+        return parentView;
     }
+
 
 }

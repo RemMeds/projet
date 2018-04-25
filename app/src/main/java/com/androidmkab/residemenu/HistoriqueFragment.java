@@ -7,11 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class FriendsFragment extends Fragment {
+public class HistoriqueFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.friends, container, false);
+        return inflater.inflate(R.layout.historique, container, false);
     }
 
 }

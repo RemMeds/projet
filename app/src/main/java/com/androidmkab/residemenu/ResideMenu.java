@@ -525,7 +525,7 @@ public class ResideMenu extends FrameLayout {
 
     /**
      * If there were some view you don't want reside menu
-     * to intercept their touch event, you could add it to
+     * to intercept their touch historique, you could add it to
      * ignored views.
      *
      * @param v
@@ -551,7 +551,7 @@ public class ResideMenu extends FrameLayout {
     }
 
     /**
-     * If the motion event was relative to the view
+     * If the motion historique was relative to the view
      * which in ignored view list,return true;
      *
      * @param ev
