@@ -7,10 +7,17 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class MessageFragment extends Fragment {
+public class PilulierFragment extends Fragment {
+
+    private View parentView;
+    private ResideMenu resideMenu;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.message, container, false);
+        parentView = inflater.inflate(R.layout.pilulier, container, false);
+
+        return parentView;
     }
+
+
 }

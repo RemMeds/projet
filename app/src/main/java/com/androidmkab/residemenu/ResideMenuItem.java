@@ -6,13 +6,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-
-/**
- * User: special
- * Date: 13-12-10
- * Time: 下午11:05
- * Mail: specialcyci@gmail.com
- */
 public class ResideMenuItem extends LinearLayout{
 
     /** menu item  icon  */

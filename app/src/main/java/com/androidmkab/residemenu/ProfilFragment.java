@@ -12,11 +12,11 @@ import android.view.ViewGroup;
  * Time: 下午1:31
  * Mail: specialcyci@gmail.com
  */
-public class ProfileFragment extends Fragment {
+public class ProfilFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.profile, container, false);
+        return inflater.inflate(R.layout.profil, container, false);
     }
 
 }
