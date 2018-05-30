@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <customfonts.MyTextView1
+                <!--<customfonts.MyTextView1
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="25dp"
@@ -46,7 +46,7 @@
                     android:paddingRight="8dp"
                     android:text="Android"
                     android:textColor="#fff"
-                    android:textSize="16dp" />
+                    android:textSize="16dp" />-->
 
 
                 <customfonts.MyTextView
@@ -55,8 +55,8 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:padding="5dp"
-                    android:text="Voici le menu de l'application RemMeds"
-                    android:textSize="20dp" />
+                    android:text="RemMeds, reprenez le contrôle"
+                    android:textSize="25dp" />
 
 
             </LinearLayout>
@@ -73,7 +73,7 @@
                     android:layout_marginLeft="25dp"
                     android:layout_marginTop="20dp"
                     android:lineSpacingExtra="3dp"
-                    android:text="Vous pourrez accéder à votre pilulier, au répertoire ainsi qu'à l'historique de vos prises médicamenteuses"
+                    android:text="Bienvenue sur votre assistant RemMeds\n\n Vos prises du jour :"
                     android:textSize="16dp" />
 
 
