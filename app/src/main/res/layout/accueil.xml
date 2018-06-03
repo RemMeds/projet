@@ -36,18 +36,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <!--<customfonts.MyTextView1
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="20dp"
-                    android:background="@drawable/rect"
-                    android:paddingLeft="8dp"
-                    android:paddingRight="8dp"
-                    android:text="Android"
-                    android:textColor="#fff"
-                    android:textSize="16dp" />-->
-
 
                 <customfonts.MyTextView
                     android:layout_width="wrap_content"
@@ -69,7 +57,7 @@
 
                 <customfonts.MyTextView1
                     android:layout_width="wrap_content"
-                    android:layout_height="205dp"
+                    android:layout_height="65dp"
                     android:layout_marginLeft="25dp"
                     android:layout_marginTop="20dp"
                     android:lineSpacingExtra="3dp"
@@ -77,102 +65,64 @@
                     android:textSize="16dp" />
 
 
-                <!--<customfonts.MyTextView1-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="For More templates like this Subscribe to my channel at YouTube.com/KarthikM128"-->
-                <!--android:layout_marginLeft="25dp"-->
-                <!--android:textSize="16dp"-->
-                <!--android:lineSpacingExtra="3dp"-->
-                <!--android:layout_marginTop="20dp"-->
-                <!--android:layout_marginBottom="20dp"/>-->
-
-
-            </LinearLayout>
-
-
-            <!--<View-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="0.5dp"-->
-            <!--android:background="#acacac"-->
-            <!--android:layout_marginTop="10dp"/>-->
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="156dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-
-                <!--<LinearLayout-->
-                <!--android:layout_width="30dp"-->
-                <!--android:layout_height="30dp"-->
-                <!--android:background="@drawable/round"-->
-                <!--android:layout_marginLeft="20dp"-->
-                <!--android:gravity="center">-->
-
-                <!--<customfonts.MyTextView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="A"-->
-                <!--android:textSize="16dp"-->
-                <!--android:textColor="#fff"-->
-                <!--android:gravity="center"-->
-
-
-                <!--/>-->
-                <!--</LinearLayout>-->
-
-                <!--<customfonts.MyTextView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginLeft="5dp"-->
-                <!--android:gravity="center"-->
-                <!--android:text="CHANNEL KarthikM "-->
-                <!--android:textSize="12dp"-->
-                <!--android:textStyle="bold" />-->
-
-                <!--<customfonts.MyTextView1-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="25K"-->
-                <!--android:gravity="center"-->
-                <!--android:textStyle="bold"-->
-                <!--android:layout_marginLeft="30dp"-->
-                <!--/>-->
-
-
-                <!--<customfonts.MyTextView1-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="VIEW"-->
-                <!--android:gravity="center"-->
-                <!--android:textSize="12dp"-->
-                <!--android:layout_marginLeft="5dp"-->
-                <!--/>-->
-
-                <!--<customfonts.MyTextView1-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="200"-->
-                <!--android:gravity="center"-->
-                <!--android:textStyle="bold"-->
-                <!--android:layout_marginLeft="10dp"-->
-                <!--/>-->
-                <!--<customfonts.MyTextView1-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="COMMNETS"-->
-                <!--android:gravity="center"-->
-                <!--android:textSize="12dp"-->
-                <!--android:layout_marginLeft="5dp"-->
-                <!--/>-->
             </LinearLayout>
 
 
         </LinearLayout>
     </ScrollView>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView android:id="@+id/img" android:layout_width="50dp" android:layout_height="50dp" tools:background="#AAA" />
+            <TextView android:id="@+id/medic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@android:color/black" android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/img" android:layout_alignTop="@+id/img" android:textStyle="bold" tools:text="Nom du médicament" />
+            <TextView android:id="@+id/details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@android:color/black" android:layout_alignLeft="@+id/medic" android:layout_below="@+id/medic" tools:text="Heure : 20:00\n2 cachets à diluer" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="60dp">
+
+
+            <ImageView android:id="@+id/img2" android:layout_width="50dp" android:layout_height="50dp" tools:background="#AAA" />
+            <TextView android:id="@+id/medic2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@android:color/black" android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/img2" android:layout_alignTop="@+id/img2" android:textStyle="bold" tools:text="Nom du médicament 2" />
+            <TextView android:id="@+id/details2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@android:color/black" android:layout_alignLeft="@+id/medic2" android:layout_below="@+id/medic2" tools:text="Heure : 21:00\n3 cuilières à soupe" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="120dp">
+
+
+            <ImageView android:id="@+id/img3" android:layout_width="50dp" android:layout_height="50dp" tools:background="#AAA" />
+            <TextView android:id="@+id/medic3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@android:color/black" android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/img3" android:layout_alignTop="@+id/img3" android:textStyle="bold" tools:text="Nom du médicament 3" />
+            <TextView android:id="@+id/details3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@android:color/black" android:layout_alignLeft="@+id/medic3" android:layout_below="@+id/medic3" tools:text="Heure : 21:00\n1 cachet à avaler" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="180dp">
+
+
+            <ImageView android:id="@+id/img3" android:layout_width="50dp" android:layout_height="50dp" tools:background="#AAA" />
+            <TextView android:id="@+id/medic3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@android:color/black" android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/img3" android:layout_alignTop="@+id/img3" android:textStyle="bold" tools:text="Nom du médicament 4" />
+            <TextView android:id="@+id/details3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@android:color/black" android:layout_alignLeft="@+id/medic3" android:layout_below="@+id/medic3" tools:text="Heure : 21:00\n1 sachet à diluer" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
 </LinearLayout>
