@@ -8,3 +8,13 @@
 /captures
 .externalNativeBuild
 /.idea/
+
+.idea/compiler.xml
+
+.idea/copyright/profiles_settings.xml
+
+.idea/gradle.xml
+
+.idea/misc.xml
+
+.idea/vcs.xml
