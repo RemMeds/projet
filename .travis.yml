@@ -1,0 +1,26 @@
+language: android
+sudo: false
+addons:
+  sonarcloud:
+    organization: "remmeds"
+    token:
+      secure: "aiq0rqzw9XDodQT6SPf2rTkR3Vm6AugK4XEEc9xZfjdiwxyVe6Rj7ahwV5LSlIfw02LSJsUM+yeaPn+cqFRUzRfbmILtd+m5lJ3rS3MTLaFW08L3X/gpO/6ggudYukwVLTBH8fom5ieRTiXJy8yLgrrY+9O/iA4HFX0/VUc9zKD8j1ziNvoh+ZaNrE+DSmCzN/OS/I7ixYPchYXLDjLI/y/QIm/IsLz6EZGcjkvw18YNxws7MBxev1sMFvFzN6pEi6hz1IA8BGn6gtS2LrJ3SBh6jUh/aqZw/mweYkeqzyptMuhsuf2nvcGt3AW6b3qJFMdAsFVUkGaQVI8Uyy9biIYkA2p1GmOm49k/CH4QAmJl9XD+AA7nB2c/9Xo2HUjYD6eSuh2PZ+EeEiAM8KkXLGumth0m0ahRMcXKQej7MVaW9beKoll+Z3ktJ1aaDf1eYMpCwfW2XEZMZ1HfeG2nDvVN8pZwcIpaxvY516HY0kiRl5z+P2s2w8mWIM2XIreb3VnRNzv4eJrOYJijdatgtzc/CBiKQWicIEMI2psPyxN3crNCbNUkUfBzuUhUf66iEILjnouch/TN3WJWMJ/hVjyOrdnufR7VclIxUOjRvtPdQN7Cufj+MT2lV6WWpP+35VqKQR5dtK4Nb5p1HHtFdvp8F0yYda0LMUYgFL1oei8="
+android:
+  components:
+    - build-tools-27.0.3
+    - android-23
+    - extra
+script:
+  - ./gradlew sonarqube
+
+sudo: required
+
+before_install:
+ - chmod +x gradlew
+
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+    - '$HOME/.sonar/cache'
+    - '$HOME/.gradle'
+    - '.gradle'

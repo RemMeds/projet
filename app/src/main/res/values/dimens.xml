@@ -6,4 +6,6 @@
 
     <!--toolbar text size-->
     <dimen name="toolbar_text_size">18dp</dimen>
+    <dimen name="compartiment">100</dimen>
+    <dimen name="comp">100dp</dimen>
 </resources>
